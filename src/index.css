@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#navBar{
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 1;
+}
+
+#ticketsSection{
+  padding-top: 3.5rem;
+}
+
+#wixTitle{
+  margin-left: 15vw;
+}
+
+#restoreContainer {
+  margin-left: auto;
+}
+
+.labels{
+  display: flex;
+  margin-left: auto;
+  align-items: center;  
+}
+
+.label{
+  margin-right: 1rem;
+  background-color: #fccfcf;
+  width: max-content;
+  border-radius: 25%;
+}
+
+.label:hover{
+  background-color: #f08383;  
+}
+
+
